@@ -1,13 +1,6 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
-  ],
-  "packageRules": [
-    {
-      "updateTypes": ["minor"]
-    },
-    {
-      "updateTypes": ["patch", "pin", "digest"]
-    }
+    "local>Tradeshift/renovate-config:automerge-all"
   ]
 }
