@@ -5,7 +5,7 @@
   "description": "Run golangci-lint with reviewdog",
   "main": "lib/main.js",
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=20.12.1"
   },
   "scripts": {
     "build": "tsc",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@types/jest": "29.5.12",
-    "@types/node": "^20.6.0",
+    "@types/node": "^20.12.4",
     "@types/semver": "7.5.8",
     "@typescript-eslint/parser": "5.62.0",
     "@vercel/ncc": "0.38.1",
